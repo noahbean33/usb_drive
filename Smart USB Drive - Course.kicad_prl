@@ -1,0 +1,156 @@
+{
+  "board": {
+    "active_layer": 5,
+    "active_layer_preset": "",
+    "auto_track_width": true,
+    "hidden_netclasses": [],
+    "hidden_nets": [
+      ""
+    ],
+    "high_contrast_mode": 0,
+    "net_color_mode": 1,
+    "opacity": {
+      "images": 0.5,
+      "pads": 0.30000001192092896,
+      "shapes": 0.3799999952316284,
+      "tracks": 0.2800000011920929,
+      "vias": 0.550000011920929,
+      "zones": 0.2800000011920929
+    },
+    "prototype_zone_fills": false,
+    "selection_filter": {
+      "dimensions": false,
+      "footprints": true,
+      "graphics": false,
+      "keepouts": false,
+      "lockedItems": true,
+      "otherItems": false,
+      "pads": false,
+      "text": false,
+      "tracks": false,
+      "vias": true,
+      "zones": false
+    },
+    "visible_items": [
+      "vias",
+      "footprint_text",
+      "footprint_anchors",
+      "ratsnest",
+      "footprints_front",
+      "footprints_back",
+      "footprint_values",
+      "footprint_references",
+      "tracks",
+      "drc_errors",
+      "drawing_sheet",
+      "bitmaps",
+      "pads",
+      "zones",
+      "drc_warnings",
+      "drc_exclusions",
+      "conflict_shadows",
+      "shapes",
+      "ly_points"
+    ],
+    "visible_layers": "00000000_00000000_00002a82_aa00aaff",
+    "zone_display_mode": 1
+  },
+  "git": {
+    "integration_disabled": false,
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
+  },
+  "meta": {
+    "filename": "Smart USB Drive - Course.kicad_prl",
+    "version": 5
+  },
+  "net_inspector_panel": {
+    "col_hidden": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "col_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "col_widths": [
+      441,
+      566,
+      183,
+      128,
+      183,
+      183,
+      183,
+      135,
+      183,
+      183,
+      183,
+      1284
+    ],
+    "custom_group_rules": [],
+    "expanded_rows": [],
+    "filter_by_net_name": true,
+    "filter_by_netclass": true,
+    "filter_text": "Vccq",
+    "group_by_constraint": false,
+    "group_by_netclass": false,
+    "show_time_domain_details": false,
+    "show_unconnected_nets": false,
+    "show_zero_pad_nets": false,
+    "sort_ascending": true,
+    "sorting_column": 2
+  },
+  "open_jobsets": [],
+  "project": {
+    "files": [
+      {
+        "name": "Smart USB Drive - Course.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 1,
+          "maximized": false,
+          "pos_x": 4008,
+          "pos_y": 159,
+          "size_x": 3171,
+          "size_y": 2001
+        }
+      }
+    ]
+  },
+  "schematic": {
+    "hierarchy_collapsed": [],
+    "selection_filter": {
+      "graphics": true,
+      "images": true,
+      "labels": true,
+      "lockedItems": false,
+      "otherItems": true,
+      "pins": true,
+      "ruleAreas": true,
+      "symbols": true,
+      "text": true,
+      "wires": true
+    }
+  }
+}

@@ -1,0 +1,65 @@
+(version 1)
+
+(rule "U601_via_in_pad_annular_width"
+  (condition "A.insideCourtyard('U601')")
+  (constraint annular_width (min 0.075mm))
+   (constraint via_diameter (min 0.3mm))
+   (constraint hole_size (min 0.15mm))
+)
+
+(rule "U601 via-in-pad clearance"
+   (constraint clearance (min 0mm))
+   (condition "A.Type == 'Via' && A.insideCourtyard('U601') && B.Type == 'Pad' && B.memberOfFootprint('U601')")
+)
+(rule "BGA_U601_clearance"
+  (condition "A.insideCourtyard('U601') && B.insideCourtyard('U601')")
+  (constraint clearance (min 0.15mm))
+)
+(rule "IC_U502_clearance"
+  (condition "A.insideCourtyard('U502') && B.insideCourtyard('U502')")
+  (constraint clearance (min 0.1mm))
+)
+(rule "IC_U701_clearance"
+  (condition "A.insideCourtyard('U701') && B.insideCourtyard('U701')")
+  (constraint clearance (min 0.1mm))
+)
+(rule "IC_U403_clearance"
+  (condition "A.insideCourtyard('U403') && B.insideCourtyard('U403')")
+  (constraint clearance (min 0.1mm))
+)
+(rule "IC_U703_clearance"
+  (condition "A.insideCourtyard('U703') && B.insideCourtyard('U703')")
+  (constraint clearance (min 0.1mm))
+)
+(rule "same_footprint_pad_clearance"
+  (condition "A.Parent == B.Parent")
+  (constraint clearance (min 0.1mm))
+)
+(rule "U402_via_in_pad_annular_width"
+  (condition "A.insideCourtyard('U402')")
+  (constraint annular_width (min 0.075mm))
+)
+(rule "U703_via_in_pad_annular_width"
+  (condition "A.insideCourtyard('U703')")
+  (constraint annular_width (min 0.075mm))
+)
+(rule "U702_via_in_pad_annular_width"
+  (condition "A.insideCourtyard('U702')")
+  (constraint annular_width (min 0.075mm))
+)
+(rule "U502_via_in_pad_annular_width"
+  (condition "A.insideCourtyard('U502')")
+  (constraint annular_width (min 0.075mm))
+)
+(rule "U202_via_in_pad_annular_width"
+  (condition "A.insideCourtyard('U202')")
+  (constraint annular_width (min 0.075mm))
+)
+(rule "U201_via_in_pad_annular_width"
+  (condition "A.insideCourtyard('U201')")
+  (constraint annular_width (min 0.075mm))
+)
+(rule "U403_via_in_pad_annular_width"
+  (condition "A.insideCourtyard('U403')")
+  (constraint annular_width (min 0.075mm))
+)

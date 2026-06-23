@@ -1,0 +1,168 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "10.0.1-10.0.1~ubuntu24.04.1"
+    },
+    "CreationDate": "2026-04-22T13:49:08+10:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "Smart USB Drive - Course",
+      "GUID": "536d6172-7420-4555-9342-204472697665",
+      "Revision": "rev?"
+    },
+    "Size": {
+      "X": 63.5037,
+      "Y": 39.5574
+    },
+    "LayerNumber": 4,
+    "BoardThickness": 1.6,
+    "Finish": "None"
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.15,
+      "PadToTrack": 0.15,
+      "TrackToTrack": 0.15,
+      "MinLineWidth": 0.113
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.15,
+      "MinLineWidth": 0.5,
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "Smart USB Drive - Course-F_Cu - SIGNAL.gtl",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Smart USB Drive - Course-In1_Cu - GND.g1",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Smart USB Drive - Course-In2_Cu - PWR.g2",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Smart USB Drive - Course-B_Cu - SIGNAL.gbl",
+      "FileFunction": "Copper,L4,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Smart USB Drive - Course-F_Paste.gtp",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Smart USB Drive - Course-B_Paste.gbp",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Smart USB Drive - Course-F_Silkscreen.gto",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Smart USB Drive - Course-B_Silkscreen.gbo",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Smart USB Drive - Course-F_Mask.gts",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "Smart USB Drive - Course-B_Mask.gbs",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "Smart USB Drive - Course-Edge_Cuts.gm1",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0115,
+      "Name": "F.Cu - SIGNAL"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.077,
+      "Material": "FR4",
+      "Name": "F.Cu - SIGNAL/In1.Cu - GND",
+      "Notes": "Type: dielectric layer 1 (from F.Cu - SIGNAL to In1.Cu - GND)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0175,
+      "Name": "In1.Cu - GND"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 1.368,
+      "Material": "FR4",
+      "Name": "In1.Cu - GND/In2.Cu - PWR",
+      "Notes": "Type: dielectric layer 2 (from In1.Cu - GND to In2.Cu - PWR)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0175,
+      "Name": "In2.Cu - PWR"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.077,
+      "Material": "FR4",
+      "Name": "In2.Cu - PWR/B.Cu - SIGNAL",
+      "Notes": "Type: dielectric layer 3 (from In2.Cu - PWR to B.Cu - SIGNAL)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0115,
+      "Name": "B.Cu - SIGNAL"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}
