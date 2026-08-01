@@ -1,0 +1,312 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-07-31T19:16:22",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.3",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/25a06685-cede-4633-9140-eadef0836e3e",
+            "violations": [
+                {
+                    "description": "The current configuration does not include the footprint library 'footprints'",
+                    "items": [
+                        {
+                            "description": "Symbol U402 [USB2244-AEZG-06]",
+                            "pos": {
+                                "x": 1.2954,
+                                "y": 0.5715
+                            },
+                            "uuid": "3defae6d-75ac-45e4-8e49-b5e45d58e909"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'footprints'",
+                    "items": [
+                        {
+                            "description": "Symbol U402 [USB2244-AEZG-06]",
+                            "pos": {
+                                "x": 1.7018,
+                                "y": 1.4859
+                            },
+                            "uuid": "fda8bb37-a1c6-4da7-a877-56e256f22357"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'Conn_01x06' doesn't match copy in library 'Connector_Generic'",
+                    "items": [
+                        {
+                            "description": "Symbol J801 [Conn_01x06]",
+                            "pos": {
+                                "x": 1.2573,
+                                "y": 1.1303
+                            },
+                            "uuid": "a38ebe8b-f2b1-4678-8474-64cbd98cf2de"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'footprints'",
+                    "items": [
+                        {
+                            "description": "Symbol DS701 [OLED_SSD1306_0p91_128x32_I2C]",
+                            "pos": {
+                                "x": 0.6731,
+                                "y": 1.1557
+                            },
+                            "uuid": "c8a0f4c1-e99d-44e0-80a8-f1a1e51a8e44"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'footprints'",
+                    "items": [
+                        {
+                            "description": "Symbol U601 [MTFC64GAPALBH-IT]",
+                            "pos": {
+                                "x": 2.8956,
+                                "y": 0.4953
+                            },
+                            "uuid": "f1befdcb-b33a-4062-b030-7d41a632438d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                }
+            ]
+        },
+        {
+            "path": "/ORING_POWER/",
+            "uuid_path": "/25a06685-cede-4633-9140-eadef0836e3e/6cdd6bc2-11ad-4eed-919c-cb6a367c6680",
+            "violations": [
+                {
+                    "description": "Pins of type Power output and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U201 Pin 6 [VOUT, Power output, Line]",
+                            "pos": {
+                                "x": 1.4986,
+                                "y": 0.5715
+                            },
+                            "uuid": "02149b0d-caa7-4560-9be3-c1524ec485e0"
+                        },
+                        {
+                            "description": "Symbol U202 Pin 6 [VOUT, Power output, Line]",
+                            "pos": {
+                                "x": 1.4986,
+                                "y": 0.9271
+                            },
+                            "uuid": "09025293-14f0-4a6f-a3fa-d606a701e1d6"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                }
+            ]
+        },
+        {
+            "path": "/Power/",
+            "uuid_path": "/25a06685-cede-4633-9140-eadef0836e3e/47818c95-2a3a-4b53-9efe-0ef0d912c4ef",
+            "violations": [
+                {
+                    "description": "Pins of type Power output and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol #FLG0301 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 1.8923,
+                                "y": 0.6477
+                            },
+                            "uuid": "df7ae8d5-ced6-44f1-92f4-d992b47cc40d"
+                        },
+                        {
+                            "description": "Symbol #FLG0603 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 3.3655,
+                                "y": 0.5715
+                            },
+                            "uuid": "0276d59f-9b9b-46ed-9fa7-87d645d79f9a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                }
+            ]
+        },
+        {
+            "path": "/USB_BRIDGE/",
+            "uuid_path": "/25a06685-cede-4633-9140-eadef0836e3e/1d5d82e0-f167-4543-afe9-69c23904371e",
+            "violations": [
+                {
+                    "description": "Pins of type Unspecified and Input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U402 Pin 37 [EPAD, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2954,
+                                "y": 0.7493
+                            },
+                            "uuid": "1baa5fa2-e4ff-44f5-8e01-5c973eebc1ca"
+                        },
+                        {
+                            "description": "Symbol U402 Pin 28 [TEST, Input, Line]",
+                            "pos": {
+                                "x": 1.2954,
+                                "y": 0.6223
+                            },
+                            "uuid": "b6286b27-97aa-43b9-80c9-04363ab08690"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U402 Pin 30 [SD_WP, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2954,
+                                "y": 0.8509
+                            },
+                            "uuid": "d48ace37-37ad-4c72-abef-ea4faacf05a8"
+                        },
+                        {
+                            "description": "Symbol U402 Pin 37 [EPAD, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2954,
+                                "y": 0.7493
+                            },
+                            "uuid": "1baa5fa2-e4ff-44f5-8e01-5c973eebc1ca"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                }
+            ]
+        },
+        {
+            "path": "/RP2040/",
+            "uuid_path": "/25a06685-cede-4633-9140-eadef0836e3e/cf34a3e8-34c8-48ab-8276-7a73a4fefe1b",
+            "violations": []
+        },
+        {
+            "path": "/eMMC_STORAGE/",
+            "uuid_path": "/25a06685-cede-4633-9140-eadef0836e3e/e77e0dec-4163-40fd-9b15-0632fcd2e97f",
+            "violations": [
+                {
+                    "description": "Pins of type Power output and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol #FLG0602 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 3.6068,
+                                "y": 0.3683
+                            },
+                            "uuid": "bf88da8b-ec2e-4598-9e96-31d5a4285de5"
+                        },
+                        {
+                            "description": "Symbol #FLG0603 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 3.3655,
+                                "y": 0.5715
+                            },
+                            "uuid": "0276d59f-9b9b-46ed-9fa7-87d645d79f9a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Power output and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol #FLG0601 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 4.0005,
+                                "y": 0.2667
+                            },
+                            "uuid": "97a3de41-8d13-458e-8407-9fbb1952ce60"
+                        },
+                        {
+                            "description": "Symbol #FLG0602 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 3.6068,
+                                "y": 0.3683
+                            },
+                            "uuid": "bf88da8b-ec2e-4598-9e96-31d5a4285de5"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Both MMC_CMD_L and MMC_CMD are attached to the same items; MMC_CMD_L will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'MMC_CMD_L'",
+                            "pos": {
+                                "x": 2.5908,
+                                "y": 0.4445
+                            },
+                            "uuid": "a9a0958c-8b58-43a5-8042-adc93fd2a99d"
+                        },
+                        {
+                            "description": "Hierarchical Label 'MMC_CMD'",
+                            "pos": {
+                                "x": 2.4511,
+                                "y": 0.4445
+                            },
+                            "uuid": "f7a15a45-203d-45b8-ae5a-d6de5deab8c2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                }
+            ]
+        },
+        {
+            "path": "/RP2040/Sensors OLED/",
+            "uuid_path": "/25a06685-cede-4633-9140-eadef0836e3e/cf34a3e8-34c8-48ab-8276-7a73a4fefe1b/b79b5598-a54e-452e-b873-b5c0c8bf140b",
+            "violations": []
+        },
+        {
+            "path": "/RP2040/GPIO breakouts/",
+            "uuid_path": "/25a06685-cede-4633-9140-eadef0836e3e/cf34a3e8-34c8-48ab-8276-7a73a4fefe1b/2b8e6f3f-9583-470e-a2eb-47bb9e1512e4",
+            "violations": []
+        }
+    ],
+    "source": "Smart USB Drive - Course.kicad_sch"
+}

@@ -1,0 +1,55 @@
+** Drc report for Smart USB Drive - Course.kicad_pcb **
+** Created on 2026-07-31T19:20:05 **
+** Report includes: Errors, Warnings **
+
+** Found 11 DRC violations **
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0750 mm)
+    Rule: board setup constraints; error
+    @(126.4000 mm, 84.7000 mm): Via [GND] on F.Cu - SIGNAL - B.Cu - SIGNAL
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0750 mm)
+    Rule: board setup constraints; error
+    @(127.1000 mm, 84.7000 mm): Via [GND] on F.Cu - SIGNAL - B.Cu - SIGNAL
+[lib_footprint_issues]: The footprint library 'footprints' is not enabled in the current configuration
+    Local override; warning
+    @(146.5000 mm, 90.2500 mm): Footprint U601
+[lib_footprint_mismatch]: Footprint 'JST_SHL_SM06B-SHLS-TF_1x06-1MP_P1.00mm_Horizontal' does not match copy in library 'Connector_JST'
+    Local override; warning
+    @(159.1600 mm, 106.7750 mm): Footprint J801
+[lib_footprint_issues]: The footprint library 'footprints' is not enabled in the current configuration
+    Local override; warning
+    @(124.6650 mm, 83.3150 mm): Footprint DS701
+[lib_footprint_issues]: The footprint library 'footprints' is not enabled in the current configuration
+    Local override; warning
+    @(124.5000 mm, 89.0000 mm): Footprint U402
+[lib_footprint_issues]: The footprint library 'footprints' is not enabled in the current configuration
+    Local override; warning
+    @(156.3000 mm, 115.5000 mm): Footprint G***
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1400 mm)
+    Rule: board setup constraints silk; warning
+    @(146.7000 mm, 115.7300 mm): Segment of D802 on F.Silkscreen
+    @(148.9850 mm, 115.9900 mm): Segment of D801 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1400 mm)
+    Rule: board setup constraints silk; warning
+    @(148.9850 mm, 115.7300 mm): Segment of D802 on F.Silkscreen
+    @(148.9850 mm, 115.9900 mm): Segment of D801 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1400 mm)
+    Rule: board setup constraints silk; warning
+    @(146.7000 mm, 115.7300 mm): Segment of D802 on F.Silkscreen
+    @(148.9850 mm, 117.4600 mm): Segment of D801 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1400 mm)
+    Rule: board setup constraints silk; warning
+    @(148.9850 mm, 115.7300 mm): Segment of D802 on F.Silkscreen
+    @(148.9850 mm, 117.4600 mm): Segment of D801 on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

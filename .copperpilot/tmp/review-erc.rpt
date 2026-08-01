@@ -1,0 +1,69 @@
+ERC report (2026-07-31T19:19:37, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[footprint_link_issues]: The current configuration does not include the footprint library 'footprints'
+    ; warning
+    @(129.54 mm, 57.15 mm): Symbol U402 [USB2244-AEZG-06]
+[footprint_link_issues]: The current configuration does not include the footprint library 'footprints'
+    ; warning
+    @(170.18 mm, 148.59 mm): Symbol U402 [USB2244-AEZG-06]
+[lib_symbol_mismatch]: Symbol 'Conn_01x06' doesn't match copy in library 'Connector_Generic'
+    ; warning
+    @(125.73 mm, 113.03 mm): Symbol J801 [Conn_01x06]
+[footprint_link_issues]: The current configuration does not include the footprint library 'footprints'
+    ; warning
+    @(67.31 mm, 115.57 mm): Symbol DS701 [OLED_SSD1306_0p91_128x32_I2C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'footprints'
+    ; warning
+    @(289.56 mm, 49.53 mm): Symbol U601 [MTFC64GAPALBH-IT]
+
+***** Sheet /ORING_POWER/
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(149.86 mm, 57.15 mm): Symbol U201 Pin 6 [VOUT, Power output, Line]
+    @(149.86 mm, 92.71 mm): Symbol U202 Pin 6 [VOUT, Power output, Line]
+
+***** Sheet /Power/
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(189.23 mm, 64.77 mm): Symbol #FLG0301 Pin 1 [Power output, Line]
+    @(336.55 mm, 57.15 mm): Symbol #FLG0603 Pin 1 [Power output, Line]
+
+***** Sheet /USB_BRIDGE/
+[pin_to_pin]: Pins of type Unspecified and Input are connected
+    ; warning
+    @(129.54 mm, 74.93 mm): Symbol U402 Pin 37 [EPAD, Unspecified, Line]
+    @(129.54 mm, 62.23 mm): Symbol U402 Pin 28 [TEST, Input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(129.54 mm, 85.09 mm): Symbol U402 Pin 30 [SD_WP, Unspecified, Line]
+    @(129.54 mm, 74.93 mm): Symbol U402 Pin 37 [EPAD, Unspecified, Line]
+
+***** Sheet /RP2040/
+
+***** Sheet /eMMC_STORAGE/
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(360.68 mm, 36.83 mm): Symbol #FLG0602 Pin 1 [Power output, Line]
+    @(336.55 mm, 57.15 mm): Symbol #FLG0603 Pin 1 [Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(400.05 mm, 26.67 mm): Symbol #FLG0601 Pin 1 [Power output, Line]
+    @(360.68 mm, 36.83 mm): Symbol #FLG0602 Pin 1 [Power output, Line]
+[multiple_net_names]: Both MMC_CMD_L and MMC_CMD are attached to the same items; MMC_CMD_L will be used in the netlist
+    ; warning
+    @(259.08 mm, 44.45 mm): Label 'MMC_CMD_L'
+    @(245.11 mm, 44.45 mm): Hierarchical Label 'MMC_CMD'
+
+***** Sheet /RP2040/Sensors OLED/
+
+***** Sheet /RP2040/GPIO breakouts/
+
+ ** ERC messages: 12  Errors 4  Warnings 8
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

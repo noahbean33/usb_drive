@@ -1,0 +1,234 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-07-31T19:16:33",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.3",
+    "schematic_parity": [],
+    "source": "Smart USB Drive - Course.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0750 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - SIGNAL - B.Cu - SIGNAL",
+                    "pos": {
+                        "x": 126.4,
+                        "y": 84.7
+                    },
+                    "uuid": "bb0fd1c3-0f2b-4c7e-b2ad-5a170b3330ec"
+                }
+            ],
+            "severity": "error",
+            "type": "annular_width"
+        },
+        {
+            "description": "Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0750 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - SIGNAL - B.Cu - SIGNAL",
+                    "pos": {
+                        "x": 127.1,
+                        "y": 84.7
+                    },
+                    "uuid": "f8eaa9b6-cc85-4be8-9878-4366a0a1791b"
+                }
+            ],
+            "severity": "error",
+            "type": "annular_width"
+        },
+        {
+            "description": "The footprint library 'footprints' is not enabled in the current configuration",
+            "items": [
+                {
+                    "description": "Footprint U601",
+                    "pos": {
+                        "x": 146.5,
+                        "y": 90.25
+                    },
+                    "uuid": "8f48e7ac-b234-494d-93cf-a634d989f15a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'JST_SHL_SM06B-SHLS-TF_1x06-1MP_P1.00mm_Horizontal' does not match copy in library 'Connector_JST'",
+            "items": [
+                {
+                    "description": "Footprint J801",
+                    "pos": {
+                        "x": 159.16,
+                        "y": 106.775
+                    },
+                    "uuid": "c09c15a9-03b0-499e-b2cd-c45939e7c520"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The footprint library 'footprints' is not enabled in the current configuration",
+            "items": [
+                {
+                    "description": "Footprint DS701",
+                    "pos": {
+                        "x": 124.665,
+                        "y": 83.315
+                    },
+                    "uuid": "d326c084-cb6c-4801-a604-7f9789d801ca"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The footprint library 'footprints' is not enabled in the current configuration",
+            "items": [
+                {
+                    "description": "Footprint U402",
+                    "pos": {
+                        "x": 124.5,
+                        "y": 89.0
+                    },
+                    "uuid": "fb8ab30a-fd2a-46e7-8123-4fa549c53fda"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The footprint library 'footprints' is not enabled in the current configuration",
+            "items": [
+                {
+                    "description": "Footprint G***",
+                    "pos": {
+                        "x": 156.3,
+                        "y": 115.5
+                    },
+                    "uuid": "fce00435-c883-48b3-8cc3-ba3775d3cbb6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1400 mm)",
+            "items": [
+                {
+                    "description": "Segment of D802 on F.Silkscreen",
+                    "pos": {
+                        "x": 146.7,
+                        "y": 115.73
+                    },
+                    "uuid": "2ec03630-7f9c-4bbf-84f1-c73882bdda0b"
+                },
+                {
+                    "description": "Segment of D801 on F.Silkscreen",
+                    "pos": {
+                        "x": 148.985,
+                        "y": 115.99
+                    },
+                    "uuid": "f9e15fb1-86a3-4e81-97b1-54c36b240fce"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1400 mm)",
+            "items": [
+                {
+                    "description": "Segment of D802 on F.Silkscreen",
+                    "pos": {
+                        "x": 148.985,
+                        "y": 115.73
+                    },
+                    "uuid": "124e09fc-02fd-4e01-9c8a-5c969e0d4ded"
+                },
+                {
+                    "description": "Segment of D801 on F.Silkscreen",
+                    "pos": {
+                        "x": 148.985,
+                        "y": 115.99
+                    },
+                    "uuid": "f9e15fb1-86a3-4e81-97b1-54c36b240fce"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1400 mm)",
+            "items": [
+                {
+                    "description": "Segment of D802 on F.Silkscreen",
+                    "pos": {
+                        "x": 146.7,
+                        "y": 115.73
+                    },
+                    "uuid": "2ec03630-7f9c-4bbf-84f1-c73882bdda0b"
+                },
+                {
+                    "description": "Segment of D801 on F.Silkscreen",
+                    "pos": {
+                        "x": 148.985,
+                        "y": 117.46
+                    },
+                    "uuid": "6da6678d-db4b-4c50-bee4-8a4ccd678dff"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.1400 mm)",
+            "items": [
+                {
+                    "description": "Segment of D802 on F.Silkscreen",
+                    "pos": {
+                        "x": 148.985,
+                        "y": 115.73
+                    },
+                    "uuid": "124e09fc-02fd-4e01-9c8a-5c969e0d4ded"
+                },
+                {
+                    "description": "Segment of D801 on F.Silkscreen",
+                    "pos": {
+                        "x": 148.985,
+                        "y": 117.46
+                    },
+                    "uuid": "6da6678d-db4b-4c50-bee4-8a4ccd678dff"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        }
+    ]
+}
